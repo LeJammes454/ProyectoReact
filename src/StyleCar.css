@@ -1,0 +1,29 @@
+#tarjeta {
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(156, 156, 156, 0.596);
+}
+#tarjeta h2 {
+  text-align: center;
+  background-color: aqua;
+}
+#titulo {
+  background-color: rgb(89, 190, 157);
+  display: block;
+}
+#titulo img {
+  margin-left: 20px;
+  padding: 10px 0px 10px 0px;
+  width: 250px;
+  border-radius: 5px;
+}
+#contenido {
+  background-color: rgb(13, 114, 114);
+}
+#contenido p {
+  text-align: center;
+  padding: 5px 0;
+  margin: 10px 10px ;
+  color: aliceblue;
+}
