@@ -1,5 +1,6 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import '@fontsource/roboto';
 
 import App from './App';
 import Car from './Car';
