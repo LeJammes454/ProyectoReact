@@ -1,15 +1,20 @@
 #tarjeta {
-  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.596);
+  border-radius: 5px;
+  max-width: 300px;
+  margin: auto;
   width: 300px;
   height: 400px;
   background-color: rgba(156, 156, 156, 0.596);
 }
 #tarjeta h2 {
+  padding: 10px 10px;
   text-align: center;
-  background-color: aqua;
+  color: aliceblue;
+  background-color: rgb(133, 138, 138);
 }
 #titulo {
-  background-color: rgb(89, 190, 157);
+  background-color: rgba(175, 179, 177, 0.521);
   display: block;
 }
 #titulo img {
@@ -19,11 +24,11 @@
   border-radius: 5px;
 }
 #contenido {
-  background-color: rgb(13, 114, 114);
+  background-color: rgba(65, 75, 75, 0.74);
 }
 #contenido p {
   text-align: center;
   padding: 5px 0;
-  margin: 10px 10px ;
+  margin: 10px 10px;
   color: aliceblue;
 }
