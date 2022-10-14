@@ -7,7 +7,7 @@
   max-width: 300px;
   margin: auto;
   width: 300px;
-  height: 400px;
+  height: auto;
   background-color: rgba(156, 156, 156, 0.596);
 }
 #tarjeta h2 {
@@ -31,4 +31,42 @@
   padding: 5px 0;
   margin: 10px 10px;
   color: aliceblue;
+}
+/* From uiverse.io by @nikk7007 */
+button {
+  margin: 10px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #585d5d;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #eef5f4;
+}
+
+button::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #688582;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+button:hover::before {
+  width: 105%;
+}
+
+button:hover {
+  color: #111;
 }
