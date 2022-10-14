@@ -30,6 +30,12 @@ export default function Car(props) {
         </div>
       </div>
       <button onClick={() => hacerBeep(props.sonido)}>Hacer bep bep</button>
+
+      <div id="an">
+        {props.anio < 1990 && (
+          <img src="https://thumbs.dreamstime.com/z/dise%C3%B1o-cl%C3%A1sico-de-la-insignia-del-logotipo-club-coche-vintage-vieja-plantilla-retra-vector-etiqueta-c-comunidad-estilo-eps-140352838.jpg" />
+        )}
+      </div>
     </div>
   );
 }

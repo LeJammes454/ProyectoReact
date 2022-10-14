@@ -23,12 +23,14 @@ root.render(
       imagen="https://lumiere-a.akamaihd.net/v1/images/au_disneynews_pixar_cars_lightningmcqueen_incarticle_he_b5b136ee.jpeg?region=0,0,1365,546"
       descripcion="Rayo McQueen, es un automóvil de carreras prosopopéyico protagonista de las películas producidas por Pixar"
       sonido="Cuchao!"
+      anio="1996"
     />
     <Vehiculo
       imagen="https://www.mundomotero.com/wp-content/uploads/2020/10/Prueba-ZONTES-U1-125-2-1024x683.jpg"
       nombre="Zontes U1"
       descripcion="¿Una Trail ligera, dinámica y provocativa? Sin duda alguna, la respuesta es: U1-125."
       modelo="u1 2022"
+      anio="2001"
     />
   </StrictMode>
 );

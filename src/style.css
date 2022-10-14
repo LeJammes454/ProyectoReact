@@ -1,18 +1,21 @@
-h1,
-p {
+#pric p,
+#pric h1 {
   font-family: Roboto;
-  color: rgb(97, 101, 105);
+  color: rgb(217, 226, 235);
+  background-color: #948e8e;
+  margin: auto;
 }
 div {
   text-align: center;
+  margin: auto;
 }
 
 body {
-  background-color: rgb(196, 189, 189);
+  background-image: radial-gradient(#997e7e 1.5px, transparent 1.5px);
+  background-size: 17px 17px;
+  background-color: #bdc4c6;
 }
-div {
-  margin: auto;
-}
+
 /* From uiverse.io by @AqFox */
 .spinner {
   width: 56px;

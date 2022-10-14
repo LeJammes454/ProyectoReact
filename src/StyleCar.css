@@ -70,3 +70,7 @@ button:hover::before {
 button:hover {
   color: #111;
 }
+
+#an img{
+  width: 100px;
+}
