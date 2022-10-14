@@ -1,4 +1,4 @@
-*{
+* {
   font-family: Roboto;
 }
 #tarjeta {
@@ -18,13 +18,10 @@
 }
 #titulo {
   background-color: rgba(175, 179, 177, 0.521);
-  display: block;
 }
 #titulo img {
-  margin-left: 20px;
   padding: 10px 0px 10px 0px;
-  width: 250px;
-  border-radius: 5px;
+  max-width: 300px;
 }
 #contenido {
   background-color: rgba(65, 75, 75, 0.74);
