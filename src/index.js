@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import '@fontsource/roboto';
 
 import App from './App';
+import Contenido from './Contenido';
 import Car from './Car';
 import Vehiculo from './vehiculo/Vehiculo';
 const rootElement = document.getElementById('root');
@@ -11,6 +12,7 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <App />
+    <Contenido/>
     <Car
       nombre="Ford Ranger"
       imagen="https://i.pinimg.com/originals/a0/83/52/a08352bf98880fdad355ae5839bbda16.jpg"

@@ -1,9 +1,26 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import './StyleCar.css';
 
 export default function Car(props) {
-const[beepeando,setBeppeando]=useState(false);
-  /*
+  const [beepeando, setBeppeando] = useState(false);
+  
+  /*function funQueSeDispara(){
+    alert("Que se va a guardar a una base de datos")
+    //Codigo necesario para guardar en base de datos
+    confirm("Y se guardo xd")
+  };
+  useEffect(funQueSeDispara,beepeando);
+  */
+var o =0;
+useEffect(()=>{
+  o++;
+  console.log("Que se va a guardar a una base de datos " + o)
+  //alert("Que se va a guardar a una base de datos")
+  //Codigo necesario para guardar en base de datos
+  //confirm("Y se guardo xd")
+  console.log("Y se guardo xd " + o)
+},[beepeando]);
+/*
   Dependiendo que nombre tenga el vehiculo, realizara un
   diferente sonido
   const hacerBeep = () => {
@@ -22,9 +39,7 @@ const[beepeando,setBeppeando]=useState(false);
 
   return (
     <div id="tarjeta">
-      {beepeando && 
-        <div classname="buble b r hb"> {props.sonido}</div>
-        }
+      {beepeando && <div className="bubble b r hb">{props.sonido}</div>}
       <h2>Hola soy un {props.nombre}</h2>
       <div id="cuerpo">
         <div id="titulo">
