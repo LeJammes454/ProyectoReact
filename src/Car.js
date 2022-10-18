@@ -2,6 +2,7 @@ import React from 'react';
 import './StyleCar.css';
 
 export default function Car(props) {
+const[beepeando,setBeppeando]=useState(false);
   /*
   Dependiendo que nombre tenga el vehiculo, realizara un
   diferente sonido
@@ -15,11 +16,15 @@ export default function Car(props) {
   */
 
   const hacerBeep = (sonido) => {
-    alert(sonido);
+    //alert(sonido);
+    setBeppeando(!beepeando);
   };
 
   return (
     <div id="tarjeta">
+      {beepeando && 
+        <div classname="buble b r hb"> {props.sonido}</div>
+        }
       <h2>Hola soy un {props.nombre}</h2>
       <div id="cuerpo">
         <div id="titulo">
